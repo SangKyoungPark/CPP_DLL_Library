@@ -19,7 +19,7 @@ __declspec(dllexport)로 정의된 함수를 __declspec(dllimport)로 호출
 
 */
 
-extern "C" MYMATH_DECLSPEC double Sum(double a, double b);
-extern "C" MYMATH_DECLSPEC double Sub(double a, double b);
-extern "C" MYMATH_DECLSPEC double Mul(double a, double b);
-extern "C" MYMATH_DECLSPEC double Div(double a, double b);
+extern "C" MYMATH_DECLSPEC double Sum(double dData1, double dData2);
+extern "C" MYMATH_DECLSPEC double Sub(double dData1, double dData2);
+extern "C" MYMATH_DECLSPEC double Mul(double dData1, double dData2);
+extern "C" MYMATH_DECLSPEC double Div(double dData1, double dData2);
